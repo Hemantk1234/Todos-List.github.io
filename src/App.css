@@ -1,0 +1,124 @@
+/*Created By Hemant */
+
+/* Genereal CSS */
+body{
+  background-color: #333;
+  color: #fff;
+}
+/* Genereal CSS */
+
+/* Button CSS */
+.AddTask{
+  margin-top: 12%;
+    font-family: 'Poppins';
+    font-size: 25px;
+    line-height: 10px;
+    padding: 22px 8px 27px 13px;;
+    overflow: hidden;
+    background: rgb(192, 192, 249);
+    border: none;
+    border-radius: 15px;
+    transition: background 0.5s ease-in-out;
+}
+.AddTask:hover{
+  background: radial-gradient(105.07%
+    105.07% at 17.04% 0%, rgba(0, 186, 226,
+    0.88) 0.67%, rgba(0, 0, 0, 0) 100%),
+    radial-gradient(97.83% 97.83% at 77.8% 100%,
+    rgba(0, 77, 226, 0.88) 0.67%,
+    rgba(0, 0, 0, 0) 100%);
+}
+
+.UpdateBtn{
+  font-family: 'Poppins';
+  font-size: 25px;
+  line-height: 4px;
+  padding: 22px 8px 27px 13px;;
+  margin-right: 20px;
+  background: #799be6;
+  color: #000;
+  transition: 0.5s ease;
+  border-radius: 10px;
+}
+.UpdateBtn:hover{
+  background: transparent;
+  border: 2px solid #799be6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 #799be6 inset, 0 0 10px 4px #799be6;
+}
+.CancelBtn{
+  line-height: 0px;
+}
+.icon{
+  
+}
+/* Button CSS */
+
+.App {
+  text-align: center;
+}
+
+.taskBg{
+  background-color: #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+
+.taskBg div{
+  display: flex;
+  align-items: center;
+}
+
+.taskNumber{
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-right: 1%;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .done .taskText{
+  flex: 1;
+}
+
+.taskBg .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3
+}
+
+.taskBg .iconsWrap{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskBg .iconsWrap span{
+  display: inline-block;
+  margin: 0 10px 0 10px;
+  cursor: pointer;
+  color: #03e9f4;
+}
+.taskBg .iconsWrap span:hover{
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+.taskdesc{
+  
+}
